@@ -1,0 +1,261 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+/* 
+Цвет заголовка: color: #FFFFFF; 
+вторичный цвет заголовка: color: #303030;
+цвет текста: color: #555555;
+вторичний цвет текста: color: #9DA4BD;
+цвет акцентировапния: color: #FF6C00;
+*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+:root {
+  --main-title-color: #ffffff;
+  --secondary-title-text: #303030;
+  --main-text-color: #555555;
+  --secondary-text-color: #9da4bd;
+  --third-text-color: #303030;
+  --active-color: #ff6c00;
+}
+/* -------------------Сброс стилей---------------------------- */
+/* сброс точек в списке */
+.list {
+  list-style: none;
+}
+/* Сброс подчеркиваней в ссылках */
+.link {
+  text-decoration: none;
+}
+/* -----------------обшие стили кнопок -------------------------- */
+.but {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.but:hover,
+.but:focus {
+  background-color: var(--active-color);
+}
+/* ----------------предворительный текст---------------------- */
+.pre-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.after-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+.section-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+/* --------------------------Header------------------------ */
+.header {
+  background-color: #41434b;
+}
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--active-color);
+}
+.right-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hright-button {
+  color: #ffffff;
+}
+/* -------------------------Hero---------------------------- */
+.hero {
+}
+.hero-main {
+  background-color: #41434b;
+}
+.hero-item-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--third-text-color);
+}
+.hero-item-link:hover,
+.hero-item-link:focus {
+  color: var(--active-color);
+}
+.hero-pre-text {
+  color: rgba(157, 164, 189, 0.6);
+}
+.hero-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--main-title-color);
+}
+.hero-text {
+  color: var(--secondary-text-color);
+}
+/* ----------------- О нас------------------------- */
+.about {
+}
+.about-list {
+}
+.about-pre-text {
+  color: var(--third-text-color);
+}
+.about-title {
+  color: var(--secondary-title-text);
+}
+.about-after-text {
+  color: var(--main-text-color);
+}
+.about-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+/* ---------------prices Услуги и цены --------------------- */
+.prices {
+  background-color: #41434b;
+}
+.prices-pre-text {
+  color: rgba(157, 164, 189, 0.6);
+}
+.prices-title {
+  color: var(--main-title-color);
+}
+.pricec-item-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+/* ----------- Почему приходят именно к нам   reaone -------- */
+.reason-count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: var(--third-text-color);
+}
+.reason-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+  color: var(--third-text-color);
+}
+.reaon-pre-text {
+  color: var(--third-text-color);
+}
+.reaon-title {
+  color: var(--secondary-title-text);
+}
+.reaon-after-text {
+  color: var(--main-text-color);
+}
+/* -------------------   masters  ----------------------------- */
+.masters-pre-text {
+  color: var(--third-text-color);
+}
+.masters-title {
+  color: var(--secondary-title-text);
+}
+.masters-item-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.39;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-title-text);
+}
+.masters-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ff6c00;
+}
+
+/* ------------------- gallery ----------------------- */
+.gallery-pre-text {
+  color: var(--third-text-color);
+}
+/* --------------------online------------------------ */
+.online {
+  background-color: #191c26;
+}
+.online-title {
+  color: var(--main-title-color);
+}
+/* --------------------contacts---------------------- */
+.contacts {
+  background-color: #191c26;
+}
+.contacts-title {
+  color: var(--main-title-color);
+}
+.contacts-link,
+.contacts-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+  font-style: normal;
+}
+/* снять косой стиль с контактов font-style: normal; */
+.contacts-subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+/* -----------------------footer---------------------- */
+.footer-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+
+  color: var(--secondary-text-color);
+}
+.footer-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--third-text-color);
+}
